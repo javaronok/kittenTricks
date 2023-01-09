@@ -18,6 +18,7 @@
     ]
   },
   "scripts": {
+    "init:prod": "npm run env -- prod",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "npm run env -- prod && react-native start",
