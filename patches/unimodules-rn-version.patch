@@ -1,0 +1,17 @@
+Index: node_modules/@unimodules/react-native-adapter/android/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/@unimodules/react-native-adapter/android/build.gradle b/node_modules/@unimodules/react-native-adapter/android/build.gradle
+--- a/node_modules/@unimodules/react-native-adapter/android/build.gradle	(revision c644abc9c521c9884063de570b8766e70be529ae)
++++ b/node_modules/@unimodules/react-native-adapter/android/build.gradle	(date 1673125305209)
+@@ -74,7 +74,7 @@
+   unimodule 'unimodules-image-loader-interface'
+   unimodule 'unimodules-app-loader'
+ 
+-  implementation 'com.facebook.react:react-native:+'
++  implementation 'com.facebook.react:react-native:0.63.4'
+ 
+   implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${safeExtGet('kotlinVersion', '1.3.50')}"
+ 
